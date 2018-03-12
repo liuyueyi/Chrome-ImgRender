@@ -36,3 +36,26 @@ chrome插件之网页dom结构渲染
 **实例演示**
 
 ![demo](doc/demo.gif)
+
+
+## 其他
+
+### 个人博客： [Z+|blog](https://liuyueyi.github.io/hexblog)
+
+基于hexo + github pages搭建的个人博客，记录所有学习和工作中的博文，欢迎大家前去逛逛
+
+
+### 声明
+
+尽信书则不如，已上内容，纯属一家之言，因本人能力一般，见识有限，如发现bug或者有更好的建议，随时欢迎批评指正，我的微博地址: [小灰灰Blog](https://weibo.com/p/1005052169825577/home)
+
+### 扫描关注
+
+公众号&博客
+
+![QrCode](https://s17.mogucdn.com/mlcdn/c45406/180209_74fic633aebgh5dgfhid2fiiggc99_1220x480.png)
+
+
+打赏码
+
+![pay](https://s3.mogucdn.com/mlcdn/c45406/180211_3a9igegd1bghf1dl26f3777aldijk_1218x478.png)

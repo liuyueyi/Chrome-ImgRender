@@ -1,0 +1,68 @@
+
+#chrome_websiteIP {
+	position: fixed;
+	bottom: 0;
+	background: #F1EDED;
+	padding: 5px;
+	border: 1px solid #919191;
+	border-bottom: 0px;
+	font-size: 12px;
+	color: #333;
+	font-family: 'Arial', Helvetica, sans-serif;
+	cursor: default;
+	z-index: 9999;
+	line-height: 1;
+	outline: 0;
+	vertical-align: baseline;
+	margin: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+
+#audio_btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:999999;
+}
+#choose-id{
+	display: block;
+	width: 100%;
+	border: none;
+	font-size: 1em;
+	line-height: 20px;
+	margin: 0;
+	padding: 0.3em;
+	resize: none;
+	font-family: inherit;
+	color: inherit;
+	box-sizing: border-box;
+	border:1px solid #FE0002;
+	border-radius:4px 0 0 4px;
+}
+#conts p{
+	display:inline-block;
+	padding:3px 0px 3px 0px;
+	margin:0px;
+}
+.NYwishes{width:255px;position:fixed; bottom:0; right:0; background:rgba(0,0,0,.6);}
+.NYwishes .send{position: absolute;left:0%;bottom:0px;height:40px;width:100%;z-index:99999;}
+.NYwishes .send .input{width:155px;;float:left;margin-left:5%;}
+.NYwishes .send-btn {float: left;}
+.NYwishes .send-btn a{background-color:#FE0000;color:#fff;width:80px;height:30px;display: inline-block;text-align: center;line-height:30px;cursor:pointer; border-radius:0 4px 4px 0;}
+
+
+.chrome_websiteIP_right {
+	right: 1%;
+}
+
+.chrome_websiteIP_left {
+	left: 1%;
+}
+
+/* hide if in print view */
+@media print {
+      #chrome_websiteIP {display:none;}
+}

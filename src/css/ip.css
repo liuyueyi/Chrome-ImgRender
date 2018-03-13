@@ -47,7 +47,7 @@
 	padding:3px 0px 3px 0px;
 	margin:0px;
 }
-.NYwishes{width:255px;position:fixed; bottom:0; right:0; background:rgba(0,0,0,.6);}
+.NYwishes{width:255px;position:fixed; bottom:12px; right:20px; background:rgba(0,0,0,.6);}
 .NYwishes .send{position: absolute;left:0%;bottom:0px;height:40px;width:100%;z-index:99999;}
 .NYwishes .send .input{width:155px;;float:left;margin-left:5%;}
 .NYwishes .send-btn {float: left;}

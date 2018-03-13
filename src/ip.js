@@ -17,9 +17,15 @@ $(document).ready(function() {
 				function doRender() {
 					var chooseVal = document.getElementById('choose-id').value;
 					var node;
-					if(chooseVal.startsWith('cid:')) {
+					if(chooseVal.startsWith('cid:')) { // 根据classId获取标签
 						chooseVal = chooseVal.substring(4);
-						node = document.getElementsByClassName(chooseVal)[0];
+						var splitIndex = chooseVal.indexOf('#');
+						var index = 0;
+						if(splitIndex > 0) {
+							index = chooseVal.substring(splitIndex + 1);
+							chooseVal = chooseVal.substring(0, splitIndex);
+						}
+						node = document.getElementsByClassName(chooseVal)[parseInt(index)];
 					} else {
 						if(chooseVal.startsWith("id:")) {
 							chooseVal = chooseVal.substring(3);
